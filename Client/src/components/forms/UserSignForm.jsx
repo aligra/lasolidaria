@@ -2,7 +2,8 @@ import { Button } from "primereact/button"
 import { NavLink } from "react-router-dom"
 import googleLogo from "../../assets/google.png"
 
-function UserLoginForm() {
+
+function UserSignForm() {
     return (
         <>
             <div className="flex justify-center items-center bg-white rounded-full shadow-lg py-2 my-4">
@@ -11,8 +12,8 @@ function UserLoginForm() {
                     alt="Google Logo"
                     className="w-2 h-auto"
                 />
-                <p className="font-['League Spartan'] font-xs font-normal text-zinc-700 uppercase">
-                    Continua con Google
+                <p className="font-['Poiret One] font-xs font-light text-zinc-700 uppercase">
+                    CREAR CUENTA
                 </p>
             </div>
 
@@ -24,8 +25,8 @@ function UserLoginForm() {
                     <Button label="Crea una" className="font-['Poiret One'] font-thin text-rose-400 text-lg underline uppercase" link />
                 </NavLink>
             </div>
-    </>
+        </>
     )
 }
 
-export default UserLoginForm
+export default UserSignForm

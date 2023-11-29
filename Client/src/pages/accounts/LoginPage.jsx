@@ -14,12 +14,12 @@ function LoginPage() {
                 </p>
             </div>
 
-            <div className="flex justify-center">
+            <div className="flex justify-center items-center m-2">
                 <TabView>
-                    <TabPanel header="ORGANIZACION" className="text-rose-400 text-lg font-extrabold font-['League Spartan']">
+                    <TabPanel header="ORGANIZACION" className="w-full text-rose-400 text-xl font-extrabold font-['League Spartan']">
                         <OrgLoginForm />                    
                     </TabPanel>
-                    <TabPanel header="PARTICULAR" className="text-rose-400 text-lg font-extrabold font-['League Spartan']">
+                    <TabPanel header="PARTICULAR" className="w-full text-rose-400 text-xl font-extrabold font-['League Spartan']">
                         <UserLoginForm />
                     </TabPanel>
                 </TabView>
