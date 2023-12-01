@@ -1,6 +1,7 @@
 import volunteerImg from "../../assets/volunteer.png"
 import charityImg from "../../assets/charity.png"
 import { Button } from "primereact/button"
+import Footer from "../../components/footer/Footer"
 
 function About() {
     return (
@@ -99,7 +100,7 @@ function About() {
 
                 <Button label="EXPLORAR ORGANIZACIONES" icon="pi-angle-double-right" className="text-yellow-500 text-2xl font-extrabold font-['League Spartan'] uppercase" link/>
             </div>
-
+            <Footer />
         </div>
     )
 }

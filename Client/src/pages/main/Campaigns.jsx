@@ -1,3 +1,4 @@
+import Footer from "../../components/footer/Footer"
 
 function Campaigns() {
     return (
@@ -10,7 +11,7 @@ function Campaigns() {
                     Apoya a las organizaciones con microdonaciones para sus metas a corto plazo.
                 </p>
             </div>
-        
+            <Footer />
         </div>
     )
 }

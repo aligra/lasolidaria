@@ -1,3 +1,4 @@
+import Footer from "../../components/footer/Footer"
 
 function Organizations() {
     return (
@@ -10,6 +11,7 @@ function Organizations() {
                     Descubre la maravillosa labor que desarrollan las organizaciones benéficas.
                 </p>
             </div>
+            <Footer />
         </div>
     )
 }

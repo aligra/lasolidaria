@@ -7,7 +7,6 @@ import About from "./pages/main/About"
 import LoginPage from "./pages/accounts/LoginPage"
 import SignupPage from "./pages/accounts/SignupPage"
 
-
 function App() {
 
   return (

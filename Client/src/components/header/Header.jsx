@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom"
 
 function Header() {
     return (
-        <div className="w-full flex justify-around items-center m-4">
+        <div className="flex justify-around items-center m-4">
             <NavLink to="/">
                 <div className="flex flex-row justify-between items-center gap-2">
                     <img 
