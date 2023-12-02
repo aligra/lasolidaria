@@ -1,4 +1,4 @@
-const debug = require('debug')('movies-api:db');
+const debug = require('debug')('lasolidaria-api:db');
 const mongoose = require('mongoose');
 const envconfig = require('./env.config')
 

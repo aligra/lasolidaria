@@ -1,4 +1,4 @@
-const debug = require('debug')('movies-api:error');
+const debug = require('debug')('lasolidaria-api:error');
 
 const errorHandler = (err, req, res, next) => {
 	debug(err);

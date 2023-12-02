@@ -1,7 +1,7 @@
 require('dotenv').config();
 const envconfig = require('./src/config/env.config');
 const express =  require('express');
-const debug = require('debug')('movies-api:server');
+const debug = require('debug')('lasolidaria-api:server');
 const morgan = require('morgan');
 const cors = require('cors');
 const app = express();
