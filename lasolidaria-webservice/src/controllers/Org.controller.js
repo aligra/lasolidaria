@@ -1,5 +1,9 @@
 const httpError = require("http-errors");
-const Org = require('../models/Org.model')
+const Org = require('../models/Org.model');
+
+const createOrganization = async () => {
+    
+}
 
 const getOneOrganization = async (req, res, next) => {
     try {

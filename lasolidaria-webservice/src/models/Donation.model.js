@@ -20,7 +20,7 @@ const DonationSchema = new Schema({
         required: true
     },
     donation_amount: {
-        type: Int32,
+        type: Number,
         required: true
     }
 }, {timestamps: true});

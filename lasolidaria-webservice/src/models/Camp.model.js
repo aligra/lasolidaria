@@ -17,16 +17,12 @@ const CampSchema = new Schema({
         trim: true,
         required: true
     },
-    campaign_deadline: {
-        type: Date,
-        required: false
-    },
     category: {
         type: String,
         required: true
     },
     campaign_goal: {
-        type: Int32,
+        type: Number,
         required: true
     },
     org_id: {
