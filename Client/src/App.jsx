@@ -6,6 +6,7 @@ import Organizations from "./pages/main/Organizations"
 import About from "./pages/main/About"
 import LoginPage from "./pages/accounts/LoginPage"
 import SignupPage from "./pages/accounts/SignupPage"
+import UserDashboard from "./pages/dashboards/UserDashboard"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
+          <Route path="/dashboard/user/" element={<UserDashboard />} />
         </Routes>
         </BrowserRouter>
     </>

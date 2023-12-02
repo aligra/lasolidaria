@@ -1,11 +1,14 @@
-import { Button } from "primereact/button"
-import { NavLink } from "react-router-dom"
 import googleLogo from "../../assets/google.png"
+import { useAuth0 } from "@auth0/auth0-react";
 
 function UserLoginForm() {
+    const { loginWithRedirect } = useAuth0();
     return (
-        <>
-            <div className="flex justify-center items-center bg-white rounded-full shadow-lg py-2 my-4">
+        <div className="flex flex-col items-center">
+            <p className="text-zinc-700 text-sm text-center font-light font-['Poiret One']">
+                ¡Inicia sesión con tu cuenta de Google sin necesidad de registro previo!
+            </p>
+            <div className="flex justify-center items-center bg-white rounded-full shadow-md py-2 my-4 hover:shadow-2xl cursor-pointer" onClick={() => loginWithRedirect()}>
                 <img 
                     src={googleLogo}
                     alt="Google Logo"
@@ -15,16 +18,7 @@ function UserLoginForm() {
                     Continua con Google
                 </p>
             </div>
-
-            <div className="flex-col text-center">
-                <p className="text-zinc-700 text-base font-light font-['Poiret One']">
-                    ¿Aún no tienes una cuenta?
-                </p>
-                <NavLink to="/signup"> 
-                    <Button label="Crea una" className="font-['Poiret One'] font-thin text-rose-400 text-lg underline uppercase" link />
-                </NavLink>
-            </div>
-    </>
+        </div>
     )
 }
 

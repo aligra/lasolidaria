@@ -1,5 +1,6 @@
 import { Button } from "primereact/button"
 import homeImg from "../../assets/home.png"
+import { NavLink } from "react-router-dom"
 
 function Home() {
     return (
@@ -22,8 +23,12 @@ function Home() {
                 <p className="text-zinc-700 text-2xl font-light font-['Poiret One']">
                     Facilitamos el envío y recepción de donaciones para organizaciones benéficas en todo El Salvador.
                 </p>
-                
-                <Button label="CONOCER MAS" className="font-['Poiret One'] font-thin text-rose-400 text-sm border-1 border-rose-400 rounded-xl shadow-md px-4 py-2" />
+
+                <div className="flex justify-start">
+                    <NavLink to="/about">
+                        <Button label="CONOCER MAS" className="font-['Poiret One'] font-thin text-rose-400 text-sm border-1 border-rose-400 rounded-xl shadow-md px-4 py-2" />
+                    </NavLink>
+                </div>
             </div>
             <div className="w-2/5">
                 <img 

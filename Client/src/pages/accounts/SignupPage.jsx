@@ -1,6 +1,4 @@
-import { TabView, TabPanel } from 'primereact/tabview';
 import OrgSignForm from '../../components/forms/OrgSignForm';
-import UserSignForm from '../../components/forms/UserSignForm';
 
 function SignupPage() {
     return (
@@ -14,18 +12,7 @@ function SignupPage() {
                     Permitenos ayudarte para que sigas ayudando.
                 </p>
             </div>
-
-            <div className="flex justify-center items-center m-2">
-                <TabView>
-                    <TabPanel header="ORGANIZACION" className="w-full text-rose-400 text-xl font-extrabold font-['League Spartan']">
-                        <OrgSignForm />                    
-                    </TabPanel>
-                    <TabPanel header="PARTICULAR" className="w-full text-rose-400 text-xl font-extrabold font-['League Spartan']">
-                        <UserSignForm />
-                    </TabPanel>
-                </TabView>
-            </div>
-        
+            <OrgSignForm />                    
         </>
     )
 }

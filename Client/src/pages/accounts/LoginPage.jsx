@@ -15,7 +15,7 @@ function LoginPage() {
             </div>
 
             <div className="flex justify-center items-center m-2">
-                <TabView>
+                <TabView className="flex flex-col justify-center items-center">
                     <TabPanel header="ORGANIZACION" className="w-full text-rose-400 text-xl font-extrabold font-['League Spartan']">
                         <OrgLoginForm />                    
                     </TabPanel>

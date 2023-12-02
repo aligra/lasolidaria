@@ -1,8 +1,8 @@
 import lasolidariaLogo from "../../assets/lasolidariaLogo.png"
 import Navigation from "./navigation/Navigation"
-import LoginBtn from "./access/LoginBtn"
-import SignupBtn from "./access/SignupBtn"
+import Control from "./access/Control"
 import { NavLink } from "react-router-dom"
+
 
 function Header() {
     return (
@@ -22,10 +22,8 @@ function Header() {
             
             <Navigation />
 
-            <div className="flex flex-row justify-between items-center gap-2">
-                <LoginBtn />
-                <SignupBtn />
-            </div>
+            
+            <Control />
         </div>
     )
 }

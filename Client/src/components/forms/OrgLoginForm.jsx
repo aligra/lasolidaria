@@ -7,8 +7,8 @@ function OrgLoginForm() {
         <>
             <div className="flex flex-col gap-2 m-2">
                 <form className="flex flex-col gap-4">
-                    <InputText id="email" className="text-zinc-700 text-sm font-light font-['Poiret One'] shadow-lg p-2" placeholder="Correo Electrónico"/>
-                    <InputText id="password" type="password" className="text-zinc-700 text-sm font-light font-['Poiret One'] shadow-lg p-2" placeholder="Contraseña"/>
+                    <InputText id="email" className="text-zinc-700 text-sm font-light font-['Poiret One'] shadow-lg p-2 focus:border-2 border-rose-400" placeholder="Correo Electrónico"/>
+                    <InputText id="password" type="password" className="text-zinc-700 text-sm font-light font-['Poiret One'] shadow-lg p-2 focus:border-2 border-rose-400" placeholder="Contraseña"/>
                     <Button label="INGRESAR" className="font-['Poiret One'] font-thin text-slate-50 text-sm bg-rose-400 rounded-xl shadow-lg px-4 py-2 m-4" />
                 </form>
             </div>
