@@ -1,3 +1,4 @@
+import CampItem from "../../components/campaigns/CampItem"
 import Footer from "../../components/footer/Footer"
 
 function Campaigns() {
@@ -10,6 +11,9 @@ function Campaigns() {
                 <p className="text-zinc-700 text-xl text-center font-light font-['Poiret One']">
                     Apoya a las organizaciones con microdonaciones para sus metas a corto plazo.
                 </p>
+            </div>
+            <div>
+                <CampItem />
             </div>
             <Footer />
         </div>

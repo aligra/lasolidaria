@@ -4,7 +4,7 @@ const Schema = Mongoose.Schema;
 const OrgSchema = new Schema({
     org_logo: {
         type: String,
-        required: true
+        required: false
     },
     org_name: {
         type: String,
@@ -20,76 +20,39 @@ const OrgSchema = new Schema({
         required: true
     },
     org_address: {
-    address: {
         type: String,
         trim: true,
         required: true
-    }, 
-    city: {
-        type: String,
-        required: true
-    }, 
+    },  
     department: {
         type: String,
         required: true
-    }
     },
-    org_contact: {
     org_email: {
         type: String,
         trim: true,
         required: true
     },
-    org_phones: {
+    org_phone: {
         type: String,
         trim: true,
         required: true
-    }
     },
-    org_lead: {
-    lead_name: {
+    org_leadname: {
+        type: String,
+        trim: true,
+        required: true
+    } ,
+    org_leadid: {
         type: String,
         trim: true,
         required: true
     }, 
-    lead_birthdate: {
-        type: Date,
-        required: true
-    }, 
-    lead_email: {
+    org_resume: {
         type: String,
         trim: true,
         required: false
-    },
-    lead_id: {
-        type: String,
-        trim: true,
-        required: true
-    } 
-    },
-    org_info : {
-        org_resume: {
-            type: String,
-            trim: true,
-            required: false
-        },
-        org_statement: {
-            type: String,
-            trim: true,
-            required: false
-        },
-        org_sm: {
-            type: String,
-            trim: true,
-            required: false
-        }
-    },
-    org_docs: {
-        type: String,
-        trim: true,
-        required: true
     }
-
 },{timestamps: true});
 
 module.exports = Mongoose.model("Org", OrgSchema);

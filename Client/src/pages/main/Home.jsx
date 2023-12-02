@@ -6,7 +6,7 @@ function Home() {
     return (
         <div className="w-full flex flex-row justify-evenly items-center gap-2">
             <div className="w-2/5 flex flex-col gap-4">
-                <h2 className="text-zinc-700 text-7xl font-extrabold font-['League Spartan']">
+                <h2 className="text-zinc-700 text-6xl font-extrabold font-['League Spartan']">
                     UNETE Y
                     <br/>
                     <span className="text-yellow-500">
@@ -20,7 +20,7 @@ function Home() {
                     </span>
                 </h2>
 
-                <p className="text-zinc-700 text-2xl font-light font-['Poiret One']">
+                <p className="text-zinc-700 text-xl font-light font-['Poiret One']">
                     Facilitamos el envío y recepción de donaciones para organizaciones benéficas en todo El Salvador.
                 </p>
 
