@@ -1,22 +1,10 @@
-<<<<<<< HEAD
-# [Nombre de proyecto]
-
-## Sec [##] - Grupo N° [##]
-=======
 # lasolidaria
 
 ## Sec 01 - Grupo N° 23
->>>>>>> develop
 
 ### Integrantes
 
 | Nombre        | Carnet        |
-<<<<<<< HEAD
-| ------------- | ------------- |
-|               |               |
-|               |               |
-|               |               |
-=======
 
 | Jefferson Mauricio Valladares Navas | 00087422 |
 
@@ -37,4 +25,3 @@ Paquetes utilizados:
 - yarn add cors debug dotenv express http-errors mongoose morgan express-validator
 - yarn add nodemon --dev
 - yarn dev
->>>>>>> develop
