@@ -2,7 +2,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import UserInfo from "../../components/dashboard/UserInfo";
 import UserDonations from "../../components/dashboard/UserDonations";
 
-const Profile = () => {
+const UserDashboard = () => {
     const { isAuthenticated, isLoading } = useAuth0();
 
     if (isLoading) {
@@ -25,4 +25,4 @@ const Profile = () => {
     );
 };
 
-export default Profile;
+export default UserDashboard;
