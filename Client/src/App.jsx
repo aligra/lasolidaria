@@ -22,8 +22,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
-          <Route path="/user/dashboard" element={<UserDashboard />} />
-          <Route path="/org/dashboard/" element={<OrgDashboard />} />
+          <Route path="/dashboard/user" element={<UserDashboard />} />
+          <Route path="/dashboard/org" element={<OrgDashboard />} />
         </Routes>
         </BrowserRouter>
     </>
